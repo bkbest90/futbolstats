@@ -28,6 +28,8 @@ app.post('/webhook/', function (req, res) {
         premierleaguetable1(sender)
 
         premierleaguetable2(sender)
+        sendTextMessage(sender, 'Premier League table')
+
       }
       if (text === 'laliga table') {
         laligatable1(sender)
@@ -38,21 +40,25 @@ app.post('/webhook/', function (req, res) {
         bundesligatable1(sender)
 
         bundesligatable2(sender)
+        sendTextMessage(sender, 'Bundesliga table')
       }
       if (text === 'serie a table') {
         serieatable1(sender)
 
         serieatable2(sender)
+        sendTextMessage(sender, 'Serie A table')
       }
       if (text === 'ligue 1 table') {
         ligue1table1(sender)
 
         ligue1table2(sender)
+        sendTextMessage(sender, 'Ligue 1 table')
       }
-      if (text === 'premier league Thailand table') {
+      if (text === 'premier league thailand table') {
         thaileaguetable1(sender)
 
         thaileaguetable2(sender)
+        sendTextMessage(sender, 'Premier League Thailand table')
       }
       if (text === 'Generic') {
         sendGenericMessage(sender)
