@@ -24,7 +24,36 @@ app.post('/webhook/', function (req, res) {
     let sender = event.sender.id
     if (event.message && event.message.text) {
       var text = event.message.text
+      if (text === 'premier league table') {
+        premierleaguetable1(sender)
 
+        premierleaguetable2(sender)
+      }
+      if (text === 'laliga table') {
+        laligatable1(sender)
+
+        laligatable2(sender)
+      }
+      if (text === 'bundesliga table') {
+        bundesligatable1(sender)
+
+        bundesligatable2(sender)
+      }
+      if (text === 'serie a table') {
+        serieatable1(sender)
+
+        serieatable2(sender)
+      }
+      if (text === 'ligue 1 table') {
+        ligue1table1(sender)
+
+        ligue1table2(sender)
+      }
+      if (text === 'premier league Thailand table') {
+        thaileaguetable1(sender)
+
+        thaileaguetable2(sender)
+      }
       if (text === 'Generic') {
         sendGenericMessage(sender)
         continue
