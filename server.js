@@ -35,6 +35,7 @@ app.post('/webhook/', function (req, res) {
         laligatable1(sender)
 
         laligatable2(sender)
+        sendTextMessage(sender, 'La liga table')
       }
       if (text === 'bundesliga table') {
         bundesligatable1(sender)
