@@ -67,8 +67,8 @@ app.post('/webhook/', function (req, res) {
         continue
       }
       if (text === 'asdf') {
-       let text = "Athletic Bilbao";
-        laligaPrematches(sender, text)
+       
+        sendGenericbuttonMessage(sender)
       }
     }
     if (event.postback) {
