@@ -6245,7 +6245,7 @@ function sendGenericMessage (sender) {
         'elements': [{
           'title': 'Premier league',
           'subtitle': 'England',
-          'image_url': 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/09/09/premier-league.jpg',
+          'image_url': 'https://lh3.googleusercontent.com/-EQPiqGtIjK0/WCdAucVWzLI/AAAAAAAAITg/vIAkCtWB5nQ0DPGrFJTQ_8EmT0TReQWCQCJoC/w800-h800/Premier_League_Rebrands_DesignStudio_02.jpg',
           'buttons': [{
             'type': 'web_url',
             'url': 'https://www.premierleague.com',
@@ -6262,7 +6262,7 @@ function sendGenericMessage (sender) {
         }, {
         'title': 'La liga',
         'subtitle': 'Spain',
-        'image_url': 'https://www.bbva.com/en/data/8663082015/logo-liga-bbva-azul.jpg',
+        'image_url': 'http://worldsoccertalk.com/wp-content/uploads/2015/06/la-liga.jpg',
         'buttons': [{
           'type': 'web_url',
           'url': 'http://www.laliga.es/en',
