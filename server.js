@@ -2436,7 +2436,7 @@ function laligaPrematches(sender, text){
            var str = time;
            var num = parseInt(str.replace(/[^0-9]/g, time));
            var date = new Date(num);
-           var real date = date.setHours(date.getHours() + 7);
+           var realdate = date.setUTCHours(date.getUTCHours() + 7);
                   if (JSON.parse(body)[ai].homeTeam.name == text ||JSON.parse(body)[ai].awayTeam.name == text ) {
                     if (JSON.parse(body)[ai].outcome !== null) {
                       sendTextMessage(sender, JSON.parse(body)[ai].homeTeam.name +"\n" +JSON.parse(body)[ai].homeGoals +" - "
