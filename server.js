@@ -80,7 +80,7 @@ app.post('/webhook/', function (req, res) {
           sendGenericMessage (sender)
         }, 10);
         setTimeout(function () {
-          sendTextMessage(sender, '***พิมพ์ เมนูหลัก เพื่อกลับมาที่เมนูนี้')
+          sendTextMessage(sender, '***พิมพ์ เมนูหลัก หรือ mainmenu เพื่อกลับมาที่เมนูนี้')
         }, 150);
       }
       if (payloadtext === 'premierleaguetable') {
