@@ -67,7 +67,7 @@ app.post('/webhook/', function (req, res) {
         continue
       }
       if (text === 'asdf') {
-       
+
         sendGenericbuttonMessage(sender)
       }
     }
@@ -6249,12 +6249,12 @@ function sendGenericbuttonMessage (sender) {
     'attachment': {
       'type': 'template',
       'payload': {
-        template_type: "button",
-        text: "",
-        buttons:[{
-          type: "postback",
-          title: "เมนูหลัก",
-          payload: "mainmenu"
+        'template_type': "button",
+
+        'buttons':[{
+          'type': "postback",
+          'title': "เมนูหลัก",
+          'payload': "mainmenu"
         }]
       }
     }
