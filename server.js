@@ -2689,7 +2689,7 @@ function laligaNextmatches(sender, text){
                   if (JSON.parse(body)[i].homeTeam.name == text ||JSON.parse(body)[i].awayTeam.name == text ) {
                     if (JSON.parse(body)[i].outcome === null) {
                       sendTextMessage(sender, JSON.parse(body)[i].homeTeam.name +"\nvs\n"
-                    +JSON.parse(body)[i].awayTeam.name +"\nวันเวลาที่แข่ง\n"+ realdate +" +0"  )
+                    +JSON.parse(body)[i].awayTeam.name +"\nวันเวลาที่แข่ง\n"+ realdate   )
                     b = 5;
 
                   }
