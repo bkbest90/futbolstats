@@ -2435,12 +2435,12 @@ function laligaPrematches(sender, text){
            let time = JSON.stringify(JSON.parse(body)[ai].start)
            var str = time;
            var num = parseInt(str.replace(/[^0-9]/g, time));
-           var date = new Date(num);
-           var realdate = date.setUTCHours(date.getUTCHours() + 7);
+           var date = new Date(num).toUTCString();
+
                   if (JSON.parse(body)[ai].homeTeam.name == text ||JSON.parse(body)[ai].awayTeam.name == text ) {
                     if (JSON.parse(body)[ai].outcome !== null) {
                       sendTextMessage(sender, JSON.parse(body)[ai].homeTeam.name +"\n" +JSON.parse(body)[ai].homeGoals +" - "
-                       +JSON.parse(body)[ai].awayGoals+"\n"+JSON.parse(body)[ai].awayTeam.name +"\nวันเวลาที่แข่ง\n"+ date +" +0"  )
+                       +JSON.parse(body)[ai].awayGoals+"\n"+JSON.parse(body)[ai].awayTeam.name +"\nวันเวลาที่แข่ง\n"+ date.setHours(date.getHours() + 7) +" +0"  )
                     b = 5;
 
                   }
@@ -2681,11 +2681,10 @@ function laligaNextmatches(sender, text){
       var b = 0;
       var i = 0 ;
          do {
-           let time = JSON.stringify(JSON.parse(body)[ai].start)
+           let time = JSON.stringify(JSON.parse(body)[i].start)
            var str = time;
            var num = parseInt(str.replace(/[^0-9]/g, time));
            var date = new Date(num).toUTCString();
-           var realdate = date.setUTCHours(date.getUTCHours() + 7);
                   if (JSON.parse(body)[i].homeTeam.name == text ||JSON.parse(body)[i].awayTeam.name == text ) {
                     if (JSON.parse(body)[i].outcome === null) {
                       sendTextMessage(sender, JSON.parse(body)[i].homeTeam.name +"\nvs\n"
