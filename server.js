@@ -2681,7 +2681,7 @@ function laligaNextmatches(sender, text){
       var b = 0;
       var i = 0 ;
          do {
-           let time = JSON.stringify(JSON.parse(body)[ai].start)
+           let time = JSON.stringify(JSON.parse(body)[i].start)
            var str = time;
            var num = parseInt(str.replace(/[^0-9]/g, time));
            var date = new Date(num);
