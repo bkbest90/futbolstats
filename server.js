@@ -5653,7 +5653,7 @@ function ligue1team2(sender){
               'template_type': 'generic',
               'elements': [{
                 'title': '11  '+JSON.parse(body)[10].name,
-                'image_url': 'http://www.logo-world.net/wp-content/uploads/France/Ligue%201/SM-Caen-2016-877.png',
+                'image_url': 'http://cdn.playbuzz.com/cdn/25498500-8054-410a-82bf-b68a2447ce6e/8a223544-5f0c-40b0-8271-946769e3d514.jpg',
                 'subtitle':"Stadium: "+JSON.parse(body)[10].defaultHomeVenue.name ,
                 'buttons': [{
                   'type': 'postback',
