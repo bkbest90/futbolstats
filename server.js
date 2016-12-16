@@ -6250,7 +6250,7 @@ function sendGenericbuttonMessage (sender) {
       'type': 'template',
       'payload': {
         'template_type': "button",
-
+        'text': "ssss",
         'buttons':[{
           'type': "postback",
           'title': "เมนูหลัก",
