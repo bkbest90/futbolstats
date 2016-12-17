@@ -83,7 +83,7 @@ app.post('/webhook/', function (req, res) {
         }, 10);
         setTimeout(function () {
           sendTextMessage(sender, '***พิมพ์ เมนูหลัก หรือ mainmenu เพื่อกลับมาที่เมนูนี้')
-        }, 150);
+        }, 600);
       }
       if (payloadtext === 'premierleaguetable') {
         premierleaguetable(sender)
