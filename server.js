@@ -2362,7 +2362,7 @@ function premierleagueTomorrow(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=2',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2427,7 +2427,7 @@ function laligaTomorrow(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=46',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2492,7 +2492,7 @@ function bundesligaTomorrow(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=48',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2557,7 +2557,7 @@ function serieaTomorrow(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=49',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2622,7 +2622,7 @@ function ligue1Tomorrow(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=47',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2687,7 +2687,7 @@ function thaileagueTomorrow(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=151',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2758,7 +2758,7 @@ function premierleagueToday(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=2',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2822,7 +2822,7 @@ function laligaToday(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=46',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2887,7 +2887,7 @@ function bundesligaToday(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=48',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -2952,7 +2952,7 @@ function serieaToday(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=49',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3017,7 +3017,7 @@ function ligue1Today(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=47',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3082,7 +3082,7 @@ function thaileagueToday(sender){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=151',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3158,7 +3158,7 @@ function premierleaguePrematches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=2',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3201,7 +3201,7 @@ function laligaPrematches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=46',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3244,7 +3244,7 @@ function bundesligaPrematches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=48',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3287,7 +3287,7 @@ function serieaPrematches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=49',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3330,7 +3330,7 @@ function ligue1Prematches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=47',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3373,7 +3373,7 @@ function thaileaguePrematches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=151',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3418,7 +3418,7 @@ function premierleagueNextmatches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=2',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3461,7 +3461,7 @@ function laligaNextmatches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=46',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3504,7 +3504,7 @@ function bundesligaNextmatches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=48',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3547,7 +3547,7 @@ function serieaNextmatches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=49',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3590,7 +3590,7 @@ function ligue1Nextmatches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=47',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3633,7 +3633,7 @@ function thaileagueNextmatches(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=151',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -3677,7 +3677,7 @@ function premierleaguematchesAll(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=2',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3738,7 +3738,7 @@ function laligamatchesAll(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=46',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3799,7 +3799,7 @@ function bundesligamatchesAll(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=48',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3860,7 +3860,7 @@ function serieamatchesAll(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=49',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3921,7 +3921,7 @@ function ligue1matchesAll(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=47',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -3982,7 +3982,7 @@ function thaileaguematchesAll(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/matches?competition_id=151',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
     function callback (error, response, body) {
@@ -4050,7 +4050,7 @@ function premierleaguetable(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/league-tables?competition_id=2',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -4089,7 +4089,7 @@ function laligatable(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/league-tables?competition_id=46',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -4128,7 +4128,7 @@ function bundesligatable(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/league-tables?competition_id=48',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -4167,7 +4167,7 @@ function serieatable(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/league-tables?competition_id=49',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -4206,7 +4206,7 @@ function ligue1table(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/league-tables?competition_id=47',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -4245,7 +4245,7 @@ function thaileaguetable(sender, text){
   var options = {
     url: 'https://api.crowdscores.com/v1/league-tables?competition_id=151',
     headers: {
-      'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+      'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
     }
   }
 
@@ -4284,7 +4284,7 @@ function premierleagueteam1(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=2',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -4496,7 +4496,7 @@ function premierleagueteam2(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=2',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -4707,7 +4707,7 @@ function laligateam1(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=46',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -4919,7 +4919,7 @@ function laligateam2(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=46',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -5130,7 +5130,7 @@ function bundesligateam1(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=48',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -5342,7 +5342,7 @@ function bundesligateam2(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=48',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -5519,7 +5519,7 @@ function serieateam1(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=49',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -5731,7 +5731,7 @@ function serieateam2(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=49',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -5942,7 +5942,7 @@ function ligue1team1(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=47',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -6154,7 +6154,7 @@ function ligue1team2(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=47',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -6365,7 +6365,7 @@ function thaileagueteam1(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=151',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
@@ -6577,7 +6577,7 @@ function thaileagueteam2(sender){
     var options = {
       url: 'https://api.crowdscores.com/v1/teams?competition_ids=151',
       headers: {
-        'x-crowdscores-api-key': '913c96f103e1455680ea7fa572422835'
+        'x-crowdscores-api-key': '36dde3385af04dfea262e545bd7a3e18'
       }
     }
 
